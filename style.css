@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    position: absolute;
+    background-image: url('./images/imparallax1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    top: -30px;
+    left: -30px;
+    animation: blur 2s linear ;
+    filter: blur(50px);
+    z-index: -1;
+}
+ h3{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
